@@ -1,0 +1,17 @@
+{
+  "name": "devops-demo",
+  "version": "1.0.0",
+  "description": "Simple app for DevOps CI/CD demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --forceExit"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}
